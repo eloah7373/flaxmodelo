@@ -1,6 +1,37 @@
-h1{
-    color:blueviolet
-};
-p{
-   color:brown
+body{
+    background-color: rgb(243, 142, 181);
+}
+
+.cartao{
+    margin: auto;
+    width: 400px;
+    background-color: pink;
+    border: 1px solid rgb(112, 2, 44);
+    border-radius: 10px;
+    padding: 20px;
+}
+label{
+    width: 100%;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+    border: 1px solid pink;
+    padding: 7px;
+}
+button{
+    color:pink;
+    background-color:rgb(247, 130, 169);
+    padding: 10px 50px;
+    font: size 20px;
+    border-radius: 10px;
+    border-color:pink;
+    border-width: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(247, 171, 228);
 }
